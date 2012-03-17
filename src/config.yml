@@ -5,8 +5,6 @@ growable_plants:
   RED_ROSE: 4
   YELLOW_FLOWER: 4
   PUMPKIN: 2
-  RED_MUSHROOM: 2
-  BROWN_MUSHROOM: 2
   LEAVES: 2
   
 
@@ -22,6 +20,11 @@ growable_blocks:
 spreadable_blocks:
   GRASS: DIRT
   MOSSY_COBBLESTONE: COBBLESTONE
+
+# spreadable plants
+spreadable_plants:
+  SAND: DEAD_BUSH
+  
   
 # set for better trees (biome-specific randomized types)
-better_trees: true
+better_trees: false
